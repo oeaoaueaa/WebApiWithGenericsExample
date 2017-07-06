@@ -1,0 +1,64 @@
+{
+	"variables": [],
+	"info": {
+		"name": "WebApiWithGenericsExample",
+		"_postman_id": "4b090e76-f868-4604-26cb-9aa592c7627a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:51755/api/FootballFixture/5",
+			"request": {
+				"url": "http://localhost:51755/api/FootballFixture/5",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:51755/api/TennisFixture",
+			"request": {
+				"url": "http://localhost:51755/api/TennisFixture",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:51755/api/FootballFixture/5",
+			"request": {
+				"url": "http://localhost:51755/api/FootballFixture/5",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"type\": \"Football\",\n        \"goalScorer\": \"juanito\",\n        \"id\": 5,\n        \"availableSources\": {\n            \"isFootballFeedOne\": true,\n            \"isFootballFeedTwo\": false\n        }\n    }"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:51755/api/FootballFixture/5",
+			"request": {
+				"url": "http://localhost:51755/api/FootballFixture/5",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
